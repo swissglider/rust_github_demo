@@ -20,7 +20,11 @@
 				"files.watcherExclude": {
 					"**/target/**": true
 				},
-				"rust-analizer.checkOnSave.command": "clippy"
+				"rust-analizer.checkOnSave.command": "clippy",
+				"git.confirmSync": false,
+    			"git.autofetch": true,
+    			"workbench.colorTheme": "Default High Contrast",
+    			"editor.codeActionsOnSave": {}
 			},
 			"extensions": [
 				"rust-lang.rust-analyzer",
